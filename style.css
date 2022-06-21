@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --pink-color: #F746B3;
+    --dark-pink: #ce3995;
+    --yellow-color: #FCB64C;
+    --dark-color: #292929;
+    --grey-color: #808080;
+    --dark-grey: #353535;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hind Siliguri', Helvetica, Arial, sans-serif;
+    color: #fff;
+}
+
+p {
+    color: var(--grey-color);
+}
+
+li {
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+body {
+    width: 100%;
+    background-color: rgb(15, 15, 15);
+}
+
+.heading {
+    padding: 1.5em 0em;
+    border-bottom: 1px solid var(--dark-color);
+}
+
+nav {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > input {
+    background-color: var(--dark-color);
+    width: 300px;
+    height: 35px;
+    border: none;
+    border-radius: .3em;
+    padding: .5em 1em;
+    transition: all ease-in-out 300ms;
+    outline-offset: 2px;
+    outline: 2px solid transparent;
+}
+
+nav > input:focus {
+    width: 500px;
+    outline: 2px solid var(--pink-color);
+    outline-offset: 2px;
+}
+
+#gradient {
+    width: 100%;
+    height: 3px;
+    background-image: linear-gradient(90deg, var(--yellow-color) 0%, var(--pink-color) 100%) ;
+}
+
+.logo {
+    background: url(assets/logo.svg) no-repeat center;
+    background-size: contain;
+    width: 130px;
+    height: 22px;
+}
+
+main {
+    display: block;
+}
+
+.main {
+    max-width: 1200px;
+    margin: 2em auto;
+}
+
+h1 {
+    font-weight: 500;
+}
+
+.description {
+    color: var(--grey-color);
+}
+
+.tiles {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tile {
+    position: relative;
+    width: 300px;
+    height: 150px;
+    border-radius: .5rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    outline: 3px solid transparent;
+    outline-offset: 3px;
+    transition: all ease-in 100ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile:hover {
+    outline: 3px solid var(--pink-color);
+    width: 320px;
+    height: 170px;
+}
+
+.bg-img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    border-radius: .5rem;
+    opacity: .5;
+    filter: grayscale(1);
+    transition: all ease 100ms;
+}
+
+.lol {
+    background: url("https://t.ctcdn.com.br/fSDeKHie5h55OZYgmq0T7gRimBU=/512x288/smart/filters:format(webp)/i465600.jpeg") no-repeat center;
+    background-size: cover;
+}
+
+.cod {
+    background: url("https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/warzone/strategy-guide/01b-in-game-terms/01B-001.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.tlou {
+    background: url("https://image.api.playstation.com/vulcan/img/rnd/202010/2619/MNXMQdfyYuxR5lMmqS4AeS3c.png") no-repeat center;
+    background-size: cover;
+}
+
+.game-logo {
+    width: 150px;
+    height: 100px;
+}
+
+.lol-logo {
+    background: url("https://pro.eslgaming.com/switzerland/wp-content/uploads/2021/07/360-LOL-white-1.png") no-repeat center;
+    background-size: contain;
+}
+
+.cod-logo {
+    background: url("https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/hub/logos/wz-logo.png") no-repeat center;
+    background-size: contain;
+}
+
+.tlou-logo {
+    background: url("https://image.api.playstation.com/vulcan/img/rnd/202010/2619/mw8nzMIY8TJUtdTbAuCGDxr4.png") no-repeat center;
+    background-size: contain;
+}
+
+.search input {
+    width: 500px;
+    height: 50px;
+    padding: .7em 1em;
+    border: none;
+    border-radius: .5rem 0rem 0rem .5rem;
+    background-color: var(--dark-color);
+    font-size: 1rem;
+    transition: all ease 100ms;
+    margin-top: 1em;
+}
+
+.search input:focus {
+    outline: 3px solid var(--pink-color);
+    outline-offset: 3px;
+    border-radius: .5rem;
+    background-color: var(--dark-grey);
+    color: #fff;
+    margin-right: .5em;
+}
+
+.fa-solid {
+    color: #fff;
+}
+
+.search button {
+    height: 50px;
+    width: 100px;
+    background-color: var(--pink-color);
+    padding: .7em 1em;
+    border-radius: 0rem .5rem .5rem 0rem;
+    border: none;
+    color: black;
+    font-weight: 500;
+    font-size: 1em;
+    transition: all ease-in 100ms;
+}
+
+.search button:hover {
+    background-color: var(--dark-pink);
+}
+
+.trending {
+    margin-top: 1rem;
+}
+
+.fa-arrow-trend-up {
+    font-size: .7em;
+}
+
+.trend-title {
+    font-size: .8em;
+    margin-right: 1rem;
+    margin-left: .2rem;
+}
+
+.trend-links {
+    text-decoration: none;
+    font-size: .8em;
+    color: var(--grey-color);
+    margin-right: 1rem;
+}
+
+.trend-links:hover {
+    text-decoration: underline  ;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    border-top: 1px solid var(--dark-color);
+}
+
+#footer {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-s {
+    font-size: .8em;
+    color: var(--grey-color);
+}
