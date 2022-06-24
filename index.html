@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/favicon.svg" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <script src="https://kit.fontawesome.com/6d13cd2cef.js" crossorigin="anonymous"></script>
     <title>meuGame</title>
 </head>
 <body>
+<div class="head-fix">
     <div id="gradient"></div>
     <section class="heading">
         <nav>
@@ -18,10 +19,64 @@
             <input type="text" placeholder="Buscar...">
         </nav>
     </section>
-    <section class="main">
-        <main>
-            <h1>Selecione seu game favorito</h1>
-            <p class="description">Escolha seu jogo favorito para mais informações e estatísticas.</p>
+</div>
+<main class="main flex-main">
+        <div id="left-con">
+            <h4>Aqui vai um mini-título</h4>
+            <ul>
+                <a href="#"><li>Aqui um item</li></a>
+                <a href="#"><li>Aqui outro item</li></a>
+                <a href="#"><li>Mais um item</li></a>
+                <a href="#"><li>O último, prometo :)</li></a>
+            </ul>
+            <div class="second-con">
+                <h4>Aqui vai um mini-título</h4>
+                <ul>
+                    <a href="#"><li>Aqui um item</li></a>
+                    <a href="#"><li>Aqui outro item</li></a>
+                    <a href="#"><li>Mais um item</li></a>
+                    <a href="#"><li>O último, prometo :)</li></a>
+                </ul>
+            </div>
+            <div class="alert">
+                <i class="fa-solid fa-bug"></i>
+                <h4>Em desenvolvimento</h4>
+                <p>Você pode se deparar ehh... com alguns bugs e links quebrados. </p>
+            </div>
+        </div>
+    </section>
+
+    <div class="right-con">
+        <section class="main">
+            <div class="feat-con">
+                <a href="/thelastofuspii.html">
+                    <div class="images-con">
+                        <div class="feat-logo">
+                            <img src="/assets/feat-logo.png" alt="">
+                        </div>
+                        <div class="feature">
+                            <img src="https://image.api.playstation.com/vulcan/ap/rnd/202206/0719/yOCVLjinZ17BVrZwL0z1a6HV.png" alt="">
+                        </div>
+                    </div>
+                    <h2>O remake</h2>
+                    <p>Resista e sobreviva. Reviva o aclamado jogo que deu início a tudo, totalmente recriado para o console PlayStation®5.</p>
+                </a>
+            </div>
+
+            <div class="trending">
+                <div>
+                    <i class="fa-solid fa-arrow-trend-up"></i>
+                    <span class="trend-title">Trending</span>
+                </div>
+                <a href="leagueoflegends.html" class="trend-links">League of Legends</a>
+                <a href="#" class="trend-links">Fortnite</a>
+                <a href="#" class="trend-links">Valorant</a>
+                <a href="#" class="trend-links">Minecraft</a>
+                <a href="#" class="trend-links">Overwatch</a>
+                <a href="#" class="trend-links">Grand Theft Auto V</a>
+                <a href="#" class="trend-links">FIFA 22</a>
+            </div>
+            
             <div class="tiles">
                 <a href="#" class="tile">
                     <div class="game-logo lol-logo"></div>
@@ -31,30 +86,16 @@
                     <div class="game-logo cod-logo"></div>
                     <div class="bg-img cod"></div>
                 </a>
-                <a href="/TheLastOfUs.html" class="tile">
+                <a href="/thelastofuspii.html" class="tile">
                     <div class="game-logo tlou-logo"></div>
                     <div class="bg-img tlou"></div>
                 </a>
             </div>
-        </main>
-    </section>
-    <section class="main">
-        <div class="search">
-            <h1>Busca</h1>
-            <p class="description">Busque pelos seus jovos favoritos!</p>
-            <input type="text" placeholder="Buscar...">
-            <button>
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </button>
-        </div>
-        <div class="trending">
-            <i class="fa-solid fa-arrow-trend-up"></i>
-            <span class="trend-title">Trending:</span>
-            <a href="#" class="trend-links">League of Legends</a>
-            <a href="#" class="trend-links">Fortnite</a>
-            <a href="#" class="trend-links">The Last Of Us: Part I</a>
-        </div>
-    </section>
+            <h1>Destaque</h1>
+            <p class="description">Escolha seu jogo favorito para mais informações e estatísticas.</p>
+        </section>
+    </div>
+</main>
     <footer>
         <section id="footer">
             <span class="footer-s">Copyright © 2022 meuGame by Pablo Dias. Todas as marcas comerciais ou nome comerciais referidos nesses materiais são de propriedade dos seus respectivos proprietários.</span>

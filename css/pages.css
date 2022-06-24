@@ -1,0 +1,133 @@
+
+:root {
+    --pink-color: #F746B3;
+    --dark-pink: #ce3995;
+    --yellow-color: #FCB64C;
+    --dark-color: #292929;
+    --grey-color: #808080;
+    --dark-grey: #353535;
+}
+
+#title {
+    font-size: 2em;
+}
+
+.navbar {
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+.navbar a, span {
+    color: var(--grey-color);
+    text-decoration: none;
+    transition: all ease-in 100ms;
+}
+
+.navbar a:hover {
+    color: white;
+}
+
+.feature video, img {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.feat-logo-pg {
+    position: absolute;
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    padding: 30px;
+}
+
+.feat-logo-pg img {
+    width: auto;
+    height: 100px;
+    bottom: 0;
+}
+
+.feature video {
+    border: 1px solid rgba(255, 255, 255, .05);
+}
+
+.fa-angle-right {
+    margin: 0px .5rem;
+    color: var(--dark-grey);
+}   
+
+.sec-nav {
+    margin: 2rem 0rem;   
+    height: 40px;
+    background-color: #1a1a1a;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-title {
+    font-family: 'DM Sans', sans-serif;
+    font-size: .9em;
+}
+
+.nav-links {
+    width: 30%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    color: var(--grey-color);
+    padding: 5px 15px;
+    transition: all ease-in 100ms;
+}
+
+.nav-links:hover {
+    color: white;
+    border-bottom: 3px solid var(--pink-color);
+}
+
+.info h1, h2 {
+    line-height: 120%;
+    font-weight: 200;
+    margin-bottom: 1rem;
+}
+
+.info p {
+    margin-bottom: 1rem;
+}
+
+.info img {
+    margin: 1.2rem 0rem;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, .05)
+}
+
+.list-os {
+    margin-top: 1rem;
+    font-size: 1.7rem;
+}
+
+.list-os span {
+    font-size: .8rem;
+    display: block;
+}
+
+.fa-brands {
+    color: var(--grey-color);
+    margin-right: 1rem;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.details a{
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    background-color: #292929;
+    text-decoration: none;
+}
