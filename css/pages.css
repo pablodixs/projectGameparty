@@ -106,7 +106,18 @@
 
 .list-os {
     margin-top: 1rem;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
+}
+
+.list-os a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: var(--grey-color);
+}
+
+.list-os a:hover {
+    color: white;
+    text-decoration: underline;
 }
 
 .list-os span {
@@ -114,7 +125,11 @@
     display: block;
 }
 
-.fa-brands {
+.list-os img {
+    width: 30px;
+}
+
+.fa-brands, .fa-paw {
     color: var(--grey-color);
     margin-right: 1rem;
 }
@@ -125,9 +140,16 @@
     justify-content: space-between;
 }
 
-.details a{
+.bttn {
     padding: .5rem 1rem;
     border-radius: 5px;
     background-color: #292929;
     text-decoration: none;
+    transition: all ease-in 100ms;
+    border: 1px solid rgba(255, 255, 255, .05);
+}
+
+.bttn:hover {
+    outline-offset: 3px;
+    outline: 3px solid var(--pink-color);
 }
