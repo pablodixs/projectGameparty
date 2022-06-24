@@ -1,5 +1,5 @@
 # meuGame
-Exercício proposto pelo professor do curso de Front-end para praticar HTML e CSS.
+Exercício proposto pelo professor do curso de Front-end para praticar HTML e CSS. Vai sendo atualizada conforme vou aprendendo com o curso.
 
 ### Observações
 - Aplicação sem back-end.
