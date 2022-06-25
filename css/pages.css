@@ -278,6 +278,11 @@
     display: flex;
     justify-content: space-between;
     gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.studio {
+    justify-content: flex-start;
 }
 
 .relac h5 {
@@ -310,7 +315,7 @@
 
 .bg-img-video video {
     object-fit: cover;
-    width: 100%;
+    height: 100vh;
     filter: blur(50px);
     position: absolute;
     top: 0; 
