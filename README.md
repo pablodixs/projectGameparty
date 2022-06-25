@@ -3,8 +3,8 @@ Exercício proposto pelo professor do curso de Front-end para praticar HTML e CS
 
 ### Observações
 - Aplicação sem back-end.
-- Aplicação não responsivo.
-- Site pra acessar o projeto: https://pablodixs.github.io/exercise_meuGame (Está alguns erros. A clonagem no momento é a melhor opção 😉).
+- Aplicação não responsiva.
+- GitHub Page pra acessar o projeto: https://pablodixs.github.io/exercise_meuGame (Está alguns erros. A clonagem no momento é a melhor opção 😉).
 
 #### Últimas features
 - Hero da game page agora conta com um vídeo de background.
