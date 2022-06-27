@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 ::-moz-selection { /* For Firefox */
     background: var(--dark-pink);
@@ -15,7 +14,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Hind Siliguri', Helvetica, Arial, sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
     color: #fff;
 }
 
@@ -30,12 +29,8 @@
 
 body {
     height: 100vh;
-    background: url('https://image.api.playstation.com/vulcan/img/rnd/202010/2716/wYq1UsVEyQp6dT6cS1omgKiJ.png') no-repeat right;
+    background: url('https://sm.ign.com/t/ign_br/screenshot/default/asphalt9legends-scotland-01_7muu.h1280.png') no-repeat right;
     background-size: cover;
-}
-
-h1 {
-    font-family: 'DM Sans';
 }
 
 aside {
@@ -60,6 +55,10 @@ aside {
     width: 80%;
 }
 
+.contain h1 {
+    font-size: 2rem;
+}
+
 .bttn {
     padding: .5rem 1rem;
     background-color: rgba(29, 29, 29, 0.5);
@@ -70,7 +69,7 @@ aside {
 
 .bttn:hover {
     background-color: #373737;
-    outline: 3px solid rgb(223, 223, 223);
+    outline: 2px solid rgb(223, 223, 223);
     outline-offset: 3px;
     transition: all ease-in-out 100ms;
     text-decoration: none;
@@ -80,7 +79,7 @@ aside {
     width: 100%;
     height: 40px;
     display: block;
-    background: url(/assets/gameparty_logo_alt.svg) no-repeat center;
+    background: url(/assets/gameparty_logo.svg) no-repeat center;
     background-size: contain;
     margin-bottom: 3rem;
 }
@@ -91,6 +90,7 @@ form div {
 
 form label {
     color: var(--grey-color);
+    font-size: .875rem;
 }
 
 form input{
@@ -106,12 +106,12 @@ form input{
 }
 
 form input:focus {
-    outline: 3px solid rgb(223, 223, 223);
+    outline: 2px solid rgb(223, 223, 223);
     outline-offset: 3px;
 }
 
 form input:hover {
-    outline: 3px solid rgb(223, 223, 223);
+    outline: 2px solid rgb(223, 223, 223);
     outline-offset: 3px;
 }
 
@@ -136,9 +136,8 @@ form input:hover {
 }
 
 #submit {
-    background-color: var(--pink-color);
+    background-color: rgba(255, 255, 255, 0.1);
     color: white;
-    font-family: 'DM Sans';
     font-weight: 500;
     padding: 1rem 0rem;
 }
@@ -148,8 +147,8 @@ form input:hover {
 }
 
 a {
-    font-family: 'DM Sans';
     text-decoration: none;
+    font-size: .875rem;
     color: rgb(203, 203, 203);
 }
 

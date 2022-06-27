@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url(/css/index.css);
 @import url(/css/pages.css);
 
@@ -26,7 +25,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Hind Siliguri', Helvetica, Arial, sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
     color: #fff;
 }
 
@@ -38,13 +37,10 @@ html {
 p {
     color: var(--grey-color);
     line-height: 130%;
+    font-size: .875rem;
 }
 
-h1, h2,h3, h4, h5, h6 {
-    font-family: 'DM Sans', sans-serif;
-}
-
-h3 {
+h3, h4 {
     font-weight: 500;
 }
 
@@ -91,8 +87,6 @@ nav > input {
     outline: 2px solid transparent;
     font-size: 1rem;
     border: 1px solid rgba(255, 255, 255, .05);
-    font-family: 'DM Sans', sans-serif;
-
 }
 
 nav > input:focus {
@@ -124,7 +118,6 @@ nav > input:focus {
 }
 
 .login {
-    font-family: 'DM Sans', sans-serif;
     text-align: center;
     display: block;
     padding: .5rem 1rem;

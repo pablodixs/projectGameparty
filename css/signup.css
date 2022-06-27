@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 ::-moz-selection { /* For Firefox */
     background: var(--dark-pink);
@@ -15,7 +14,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Hind Siliguri', Helvetica, Arial, sans-serif;
     color: #fff;
 }
 
@@ -30,12 +28,9 @@
 
 body {
     height: 100vh;
-    background: url('https://cdn2.unrealengine.com/Fortnite%2Fch2-s2%2FKeyArt-3840x2138-00922efab9e3d17fa52e6e2cc086b5650fff41fc.jpg') no-repeat right;
+    background: url('https://images7.alphacoders.com/115/1151931.jpg') no-repeat right;
     background-size: cover;
-}
-
-h1 {
-    font-family: 'DM Sans';
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 aside {
@@ -44,12 +39,12 @@ aside {
     min-width: 400px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center;
     background-color: rgba(15, 15, 15, 0.8);
     border-right: 1px solid rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(50px);
-    padding: 2rem 0rem;
+    padding: 1rem 0rem;
 }
 
 .head, .foot {
@@ -58,6 +53,11 @@ aside {
 
 .contain {
     width: 80%;
+}
+
+.contain h1{
+    margin-top: 2rem;
+    font-size: 2rem;
 }
 
 .bttn {
@@ -70,7 +70,7 @@ aside {
 
 .bttn:hover {
     background-color: #373737;
-    outline: 3px solid rgb(223, 223, 223);
+    outline: 2px solid rgb(223, 223, 223);
     outline-offset: 3px;
     transition: all ease-in-out 100ms;
     text-decoration: none;
@@ -78,7 +78,7 @@ aside {
 
 .logo {
     width: 100%;
-    height: 40px;
+    height: 30px;
     display: block;
     background: url(/assets/gameparty_logo_alt.svg) no-repeat center;
     background-size: contain;
@@ -91,14 +91,15 @@ form div {
 
 form label {
     color: var(--grey-color);
-    font-family: 'DM Sans';
+    font-size: .875rem;
 }
 
 form input{
+    font-family: 'Lexend Deca', sans-serif;
     width: 100%;
     display: block;
     background-color: rgba(29, 29, 29, 0.5);
-    border: 1px solid rgb(40, 40, 40);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     padding: .5rem 1.5rem;
     border-radius: 5px;
     font-size: .9rem;
@@ -107,13 +108,19 @@ form input{
 }
 
 form input:focus {
-    outline: 3px solid rgb(223, 223, 223);
+    outline: 2px solid rgb(223, 223, 223);
     outline-offset: 3px;
 }
 
 form input:hover {
-    outline: 3px solid rgb(223, 223, 223);
+    outline: 2px solid rgb(223, 223, 223);
     outline-offset: 3px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 #password {
@@ -140,9 +147,8 @@ form input:hover {
 }
 
 #submit {
-    background-color: var(--pink-color);
+    background-color: rgba(255, 255, 255, 0.1);
     color: white;
-    font-family: 'DM Sans';
     font-weight: 500;
     padding: 1rem 0rem;
 }
@@ -152,7 +158,6 @@ form input:hover {
 }
 
 a {
-    font-family: 'DM Sans';
     text-decoration: none;
     color: rgb(203, 203, 203);
 }

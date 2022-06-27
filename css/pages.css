@@ -13,7 +13,6 @@
 }
 
 .links-page > ul, li {
-    font-family: 'DM Sans', sans-serif; 
     color: var(--grey-color);
     list-style: none;
     transition: all ease-in 100ms;
@@ -30,8 +29,8 @@
 }
 
 .info-aside h5 {
-    font-family: 'Hind Siliguri', Helvetica, Arial, sans-serif;
-    font-weight: 200;
+    font-weight: 400;
+    font-size: .875rem;
     color: var(--grey-color);
     margin-top: .7rem;
     line-height: 115%;
@@ -44,7 +43,6 @@
 
 .info-aside span {
     font-size: 0.9rem ;
-    font-family: 'DM Sans', sans-serif;
     font-weight: 500;
     color: #c4c4c4;
 }
@@ -83,7 +81,8 @@
 
 .navbar {
     margin-bottom: 1rem;
-    font-size: 0.9rem;
+    font-size: .875rem;
+    font-weight: 300;
 }
 
 .navbar a, span {
@@ -138,7 +137,6 @@
 }
 
 .nav-title {
-    font-family: 'DM Sans', sans-serif;
     font-size: .9em;
 }
 
@@ -159,7 +157,6 @@
 
 .info h1, h2 {
     line-height: 120%;
-    font-weight: 200;
     margin: 1rem 0rem;
 }
 
@@ -202,13 +199,12 @@
 }
 
 .cel-grid h4 {
-    font-weight: 200;
+    font-weight: 400;
 }
 
 .cel-grid span {
     font-size: .7rem;
     text-transform: uppercase;
-    font-family: 'DM Sans', sans-serif;
     font-weight: 500;
     letter-spacing: .8px;
 }
@@ -218,7 +214,6 @@
 }
 
 .bttn {
-    font-family: 'DM Sans', sans-serif;
     text-align: center;
     display: block;
     margin: 1rem 0rem;
@@ -237,7 +232,6 @@
 }
 
 .bttn2 {
-    font-family: 'DM Sans', sans-serif;
     text-align: center;
     display: block;
     margin: 1rem 0rem;
@@ -287,7 +281,8 @@
 
 .relac h5 {
     color: #c0c0c0;
-    font-weight: 300;
+    font-weight: 400;
+    font-size: .875rem;
 }
 
 .cel-relac {
