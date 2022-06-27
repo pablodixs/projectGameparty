@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+::-moz-selection { /* For Firefox */
+    background: var(--dark-pink);
+    color: white;
+  }
+  
+::selection {
+    background: var(--dark-pink);
+    color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hind Siliguri', Helvetica, Arial, sans-serif;
+    color: #fff;
+}
+
+:root {
+    --pink-color: #F746B3;
+    --dark-pink: #ce3995;
+    --yellow-color: #FCB64C;
+    --dark-color: #292929;
+    --grey-color: #808080;
+    --dark-grey: #353535;
+}
+
+body {
+    height: 100vh;
+    background: url('https://image.api.playstation.com/vulcan/img/rnd/202010/2716/wYq1UsVEyQp6dT6cS1omgKiJ.png') no-repeat right;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'DM Sans';
+}
+
+aside {
+    width: 30%;
+    height: 100vh;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(15, 15, 15, 0.8);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(50px);
+    padding: 2rem 0rem;
+}
+
+.head, .foot {
+    width: 80%;
+}
+
+.contain {
+    width: 80%;
+}
+
+.bttn {
+    padding: .5rem 1rem;
+    background-color: rgba(29, 29, 29, 0.5);
+    border: 1px solid rgb(40, 40, 40);
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.bttn:hover {
+    background-color: #373737;
+    outline: 3px solid rgb(223, 223, 223);
+    outline-offset: 3px;
+    transition: all ease-in-out 100ms;
+    text-decoration: none;
+}
+
+.logo {
+    width: 100%;
+    height: 40px;
+    display: block;
+    background: url(/assets/gameparty_logo_alt.svg) no-repeat center;
+    background-size: contain;
+    margin-bottom: 3rem;
+}
+
+form div {
+    margin-top: 1rem
+}
+
+form label {
+    color: var(--grey-color);
+}
+
+form input{
+    width: 100%;
+    display: block;
+    background-color: rgba(29, 29, 29, 0.5);
+    border: 1px solid rgb(40, 40, 40);
+    padding: .5rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: .5rem;
+    transition: all ease-in-out 100ms;
+}
+
+form input:focus {
+    outline: 3px solid rgb(223, 223, 223);
+    outline-offset: 3px;
+}
+
+form input:hover {
+    outline: 3px solid rgb(223, 223, 223);
+    outline-offset: 3px;
+}
+
+#password {
+    margin-bottom: .5rem;
+}
+
+.check {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.check input{
+    display: inline;
+    width: auto;
+    margin-right: .5rem;
+}
+
+.check input:focus {
+    outline: none
+}
+
+#submit {
+    background-color: var(--pink-color);
+    color: white;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    padding: 1rem 0rem;
+}
+
+.foot {
+    text-align: center;
+}
+
+a {
+    font-family: 'DM Sans';
+    text-decoration: none;
+    color: rgb(203, 203, 203);
+}
+
+a:hover {
+    text-decoration: underline;
+}

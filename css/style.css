@@ -83,18 +83,20 @@ nav {
 
 nav > input {
     background-color: rgba(255, 255, 255, 0.1);
-    width: 300px;
-    height: 35px;
-    border: none;
+    width: 50%;
     border-radius: .3em;
-    padding: .5em 1em;
+    padding: .5rem 1rem;
     transition: all ease-in-out 300ms;
     outline-offset: 2px;
     outline: 2px solid transparent;
+    font-size: 1rem;
+    border: 1px solid rgba(255, 255, 255, .05);
+    font-family: 'DM Sans', sans-serif;
+
 }
 
 nav > input:focus {
-    width: 500px;
+    width: 70%;
     background-color: rgba(24, 24, 24, 0.8);
     outline: 2px solid var(--pink-color);
     outline-offset: 2px;
@@ -120,6 +122,25 @@ nav > input:focus {
     width: 135px;
     height: 35px;
 }
+
+.login {
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    display: block;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    text-decoration: none;
+    transition: all ease-in 100ms;
+    border: 1px solid rgba(255, 255, 255, .05);
+}
+
+.login:hover {
+    background-color: #353535;
+    outline-offset: 2px;
+    outline: 2px solid rgb(223, 223, 223);
+}
+
 
 main {
     display: block;
