@@ -103,7 +103,7 @@ nav > input:focus {
 }
 
 .logo {
-    background: url(/assets/gameparty_logo.svg) no-repeat center;
+    background: url(../assets/gameparty_logo.svg) no-repeat center;
     background-size: contain;
     width: 130px;
     height: 25px;
@@ -111,7 +111,7 @@ nav > input:focus {
 }
 
 .logo:hover {
-    background: url(/assets/gameparty_logo_alt.svg) no-repeat center;
+    background: url(../assets/gameparty_logo_alt.svg) no-repeat center;
     background-size: contain;
     width: 135px;
     height: 35px;
